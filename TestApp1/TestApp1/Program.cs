@@ -17,12 +17,12 @@ Main([]);
 
 static double avg(List<int> l1)
 {
-    double sum = 0;
+    double sum1 = 0;
     for (int i = 0; i < l1.Count; i++)
     {
-        sum += l1[i];
+        sum1 += l1[i];
     }
-    return sum/l1.Count;
+    return sum1/l1.Count;
 }
 
 static int max(List<int> l1)

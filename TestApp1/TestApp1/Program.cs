@@ -29,3 +29,8 @@ static int max(List<int> l1)
 {
     return l1.Max();
 }
+
+static void crazy_fun()
+{
+    Console.WriteLine("Wanna know how I got these scars?");
+}

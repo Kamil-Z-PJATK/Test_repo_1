@@ -11,6 +11,7 @@ Main([]);
     
     List<int> l1 = new List<int>{1,2,3,4,5,6,7,8,9,10};
    Console.WriteLine(avg(l1)) ;
+   Console.WriteLine(max(l1));
 
 }
 
@@ -22,4 +23,9 @@ static double avg(List<int> l1)
         sum += l1[i];
     }
     return sum/l1.Count;
+}
+
+static int max(List<int> l1)
+{
+    return l1.Max();
 }
